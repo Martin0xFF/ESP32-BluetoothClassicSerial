@@ -21,6 +21,7 @@ sudo usermod -a -G dialout $(whoami)
 4. Enter the bt_echo directory and run idf.py flash to upload the code to ESP32
 ```
 cd bt_echo
+idf.py fullclean
 idf.py flash monitor
 ```
 
